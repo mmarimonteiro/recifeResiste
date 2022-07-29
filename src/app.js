@@ -16,6 +16,6 @@ app.use(express.json());
 app.use(cors());
 app.use('/', index);
 app.use("/ieps", ieps);
-app.use("/minha-documentação", swaggerUi.serve, swaggerUi.setup(swaggerFile));
+app.use("/minha-documentacao", swaggerUi.serve, swaggerUi.setup(swaggerFile));
 
 module.exports = app
