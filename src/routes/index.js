@@ -1,5 +1,5 @@
 const express = require ("express");
-const controller = require("../controller/iepsController.js");
+
 const router = express.Router();
 
 router.get("/", function (req, res) {
@@ -9,6 +9,4 @@ router.get("/", function (req, res) {
     })
 });
 
-router.get("/ieps", controller.getAllIeps);
-
-module.exports = router;
+module.exports = router
