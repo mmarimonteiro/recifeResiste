@@ -1,6 +1,6 @@
 const express = require("express");
 const index = require('./routes/index.js');
-const ieps = require ("./routes/iepsRoutes");
+const ieps = require ('./routes/iepsRoutes.js');
 
 require("dotenv-safe").config();
 
