@@ -3,7 +3,7 @@ const controller = require("../controller/iepsController.js");
 
 const router = express.Router();
 
-router.get("/", controller.getAllIeps);
+router.get("/ieps", controller.getAllIeps);
 router.get("/bairro", controller.getByBairro);
 router.get("/zona", controller.getByZona);
 router.post("/add", controller.createIeps);
